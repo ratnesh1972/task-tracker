@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.box{
+  width: 100vw;
+  height: 100vh;
+}
+
+.main{
+  width: 90%;
+}
+
+.border{
+  border-radius: .25rem;
+}
+.cancle{
+  color: red;
+  cursor: pointer;
+}
+
+@media screen and (min-width : 1024px){
+  .main{
+    width: 60%;
+  }
+}
+
+.reminder{
+  border: 1px solid #198754!important;
+}
+
+.btn-block{
+  width: 100%;
+}
