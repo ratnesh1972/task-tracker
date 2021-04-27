@@ -12,7 +12,7 @@ function Header({ title, onAdd, showAdd }) {
 }
 
 Header.defaultProps = {
-    title: 'Task Tracker',
+    title: 'New Task Tracker',
 }
 
 Header.propTypes = {
